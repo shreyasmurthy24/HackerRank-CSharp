@@ -10,9 +10,9 @@ namespace CeaserChiper
     {
         static void Main(string[] args)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
-            string s = Console.ReadLine();
-            int k = Convert.ToInt32(Console.ReadLine());
+            int n = 11; /*Convert.ToInt32(Console.ReadLine());*/
+            string s = "middle-Outz"; //Console.ReadLine();
+            int k = 2; // Convert.ToInt32(Console.ReadLine());
 
             string res = ceaserChiper(s, k);
             Console.WriteLine(res);
@@ -22,18 +22,31 @@ namespace CeaserChiper
         private static string ceaserChiper(string s, int k)
         {
             s = s.ToLower();
-            string[] s1 = s.Select(x => x.ToString()).ToArray();
+            char[] s1 = s.ToCharArray(); //s.Select(x => x.ToString()).ToArray();
+            int len = s1.Length;
+            char[] s2 = new char[len];
+
             string alpha = "abcdefghijklmnopqrstuvwxyz";
-            string[] arrAlpha = alpha.Select(y => y.ToString()).ToArray();
+            char[] arrAlpha = alpha.ToCharArray();  //alpha.Select(y => y.ToString()).ToArray();
+            int rot_index = k; int i = 0;
 
-            for (int i = 0; i < s1.Length; i++)
+            for (int j = 0; j < len; j++)
             {
+                for (int l = 0; l < len; l++)
+                {
+                    if (s1[j] == arrAlpha[l])
+                    {
 
+                        rot_index = Array.IndexOf(arrAlpha, arrAlpha[l]) + rot_index;
+                        s2[i] = arrAlpha[rot_index];
+                        i++; rot_index = k;
+                    }
+                }
             }
+            
+            string s3 = new string(s2);
 
-            return s;
-
-
+            return s3;
         }
     }
 }
