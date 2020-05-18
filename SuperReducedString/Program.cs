@@ -10,7 +10,8 @@ namespace SuperReducedString
     {
         static void Main(string[] args)
         {
-            string s = "aaabbccddd";
+            string s = "baab";
+            //string s = "abcdefgh";
             string res = superReducedString(s);
             Console.WriteLine(res);
             Console.ReadKey();
@@ -19,15 +20,38 @@ namespace SuperReducedString
         static string superReducedString(string s)
         {
             string output = string.Empty;
-
+            
             char[] ch = s.ToCharArray();
-                    
 
-            for (int i = 0; i < ch.Length -1; i++)
+            for (int i = 0; i < ch.Length - 1; i++)
             {
-                if (ch[i] == ch[i+1])
+                var lst = s.ToList();
+
+                if (ch[i] == ch[i + 1])
                 {
-                   ch = new string(ch).Remove(0,1).ToCharArray();
+                    var val = ch[i];
+                    var val1 = ch[i +1];
+                    lst.Remove(val);
+                    lst.Remove(val1);
+                    ch = lst.ToArray();
+                    s = string.Join(",", lst.ToArray());
+                    s = s.Replace(",", "");
+                }
+            }
+
+            for (int i = 0; i < ch.Length; i++)
+            {
+                var lst = s.ToList();
+
+                if (ch[i] == ch[i + 1])
+                {
+                    var val = ch[i];
+                    var val1 = ch[i + 1];
+                    lst.Remove(val);
+                    lst.Remove(val1);
+                    ch = lst.ToArray();
+                    s = string.Join(",", lst.ToArray());
+                    s = s.Replace(",", "");
                 }
             }
 
@@ -37,7 +61,7 @@ namespace SuperReducedString
             }
             else
             {
-                output = new string(ch);
+                output = s;
             }
 
             return output;
