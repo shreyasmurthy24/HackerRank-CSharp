@@ -30,9 +30,9 @@ namespace CeaserChiper
             char[] arrAlpha = alpha.ToCharArray();  //alpha.Select(y => y.ToString()).ToArray();
             int rot_index = k; int i = 0;
 
-            for (int j = 0; j < len; j++)
+            for (int j = 0; j < s1.Length; j++)
             {
-                for (int l = 0; l < len; l++)
+                for (int l = 0; l < arrAlpha.Length; l++)
                 {
                     if (s1[j] == arrAlpha[l])
                     {
