@@ -11,10 +11,10 @@ namespace NestedLogic
     {
         static void Main(string[] args)
         {
-            CultureInfo provider = new CultureInfo("fr-FR");
+            CultureInfo info = new CultureInfo("fr-FR");
 
-            DateTime returnedDate = DateTime.Parse(Console.ReadLine(), provider);
-            DateTime expectedDate = DateTime.Parse(Console.ReadLine(), provider);
+            DateTime returnedDate = DateTime.Parse(Console.ReadLine(), info);
+            DateTime expectedDate = DateTime.Parse(Console.ReadLine(), info);
 
             if (returnedDate < expectedDate)
             {
