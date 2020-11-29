@@ -37,6 +37,7 @@ namespace LinkedList
             node.next.next = new Node(14);
             node.next.next.next = new Node(5);
             node.Print();
+            Console.ReadKey();
         }
     }
 }

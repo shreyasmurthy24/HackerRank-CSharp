@@ -119,6 +119,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nSeriesArithmeticProgressio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nSeriesGeometricProgression", "nSeriesGeometricProgression\nSeriesGeometricProgression.csproj", "{48C07CEF-A07D-404A-A80A-23E030217DA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList_Collections", "LinkedList_Collections\LinkedList_Collections.csproj", "{FD005F2E-6AD4-48AF-9BD2-251E102948D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubArrayDivision", "SubArrayDivision\SubArrayDivision.csproj", "{4C7008E2-E584-438A-B4BB-B199C45DF4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedLogic", "NestedLogic\NestedLogic.csproj", "{73B3DE8A-28ED-4567-8FC7-46667947B9D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -357,6 +363,18 @@ Global
 		{48C07CEF-A07D-404A-A80A-23E030217DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48C07CEF-A07D-404A-A80A-23E030217DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48C07CEF-A07D-404A-A80A-23E030217DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD005F2E-6AD4-48AF-9BD2-251E102948D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD005F2E-6AD4-48AF-9BD2-251E102948D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD005F2E-6AD4-48AF-9BD2-251E102948D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD005F2E-6AD4-48AF-9BD2-251E102948D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7008E2-E584-438A-B4BB-B199C45DF4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7008E2-E584-438A-B4BB-B199C45DF4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7008E2-E584-438A-B4BB-B199C45DF4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7008E2-E584-438A-B4BB-B199C45DF4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B3DE8A-28ED-4567-8FC7-46667947B9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B3DE8A-28ED-4567-8FC7-46667947B9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B3DE8A-28ED-4567-8FC7-46667947B9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B3DE8A-28ED-4567-8FC7-46667947B9D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
