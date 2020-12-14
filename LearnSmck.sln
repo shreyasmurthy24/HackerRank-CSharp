@@ -125,6 +125,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubArrayDivision", "SubArra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedLogic", "NestedLogic\NestedLogic.csproj", "{73B3DE8A-28ED-4567-8FC7-46667947B9D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigSorting", "BigSorting\BigSorting.csproj", "{195777EF-0644-44B5-9EAF-03374BA91319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigSortingString", "BigSortingString\BigSortingString.csproj", "{B71CD797-4EDB-466E-8383-507C13A2BE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingString", "SortingString\SortingString.csproj", "{77A17C08-8C1B-4622-8883-33D104241ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingStringArray", "SortingStringArray\SortingStringArray.csproj", "{C17DB1E6-90C2-4C04-8284-4E5D8860FA83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +383,22 @@ Global
 		{73B3DE8A-28ED-4567-8FC7-46667947B9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73B3DE8A-28ED-4567-8FC7-46667947B9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73B3DE8A-28ED-4567-8FC7-46667947B9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195777EF-0644-44B5-9EAF-03374BA91319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195777EF-0644-44B5-9EAF-03374BA91319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195777EF-0644-44B5-9EAF-03374BA91319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195777EF-0644-44B5-9EAF-03374BA91319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71CD797-4EDB-466E-8383-507C13A2BE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71CD797-4EDB-466E-8383-507C13A2BE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71CD797-4EDB-466E-8383-507C13A2BE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71CD797-4EDB-466E-8383-507C13A2BE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A17C08-8C1B-4622-8883-33D104241ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A17C08-8C1B-4622-8883-33D104241ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A17C08-8C1B-4622-8883-33D104241ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A17C08-8C1B-4622-8883-33D104241ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17DB1E6-90C2-4C04-8284-4E5D8860FA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17DB1E6-90C2-4C04-8284-4E5D8860FA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17DB1E6-90C2-4C04-8284-4E5D8860FA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17DB1E6-90C2-4C04-8284-4E5D8860FA83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
