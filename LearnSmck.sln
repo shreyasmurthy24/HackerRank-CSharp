@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingString", "SortingStr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingStringArray", "SortingStringArray\SortingStringArray.csproj", "{C17DB1E6-90C2-4C04-8284-4E5D8860FA83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMaxMin", "ArrayMaxMin\ArrayMaxMin.csproj", "{2CB7F3F9-EA54-4E2F-9693-B20E676230E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -399,6 +401,10 @@ Global
 		{C17DB1E6-90C2-4C04-8284-4E5D8860FA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C17DB1E6-90C2-4C04-8284-4E5D8860FA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C17DB1E6-90C2-4C04-8284-4E5D8860FA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB7F3F9-EA54-4E2F-9693-B20E676230E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB7F3F9-EA54-4E2F-9693-B20E676230E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB7F3F9-EA54-4E2F-9693-B20E676230E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB7F3F9-EA54-4E2F-9693-B20E676230E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
