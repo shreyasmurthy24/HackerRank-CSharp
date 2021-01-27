@@ -19,24 +19,31 @@ namespace BigSortingString
                 unsorted[i] = unsortedItem;
             }
 
-            string[] result = bigSorted(unsorted);
+            //int[] result = BigSorting(unsorted);
 
-            for (int i = 0; i < result.Length; i++)
+            Array.Sort(unsorted, (string a, string b) =>
             {
-                Console.WriteLine(result[i]);
-            }
+                if (a.Length == b.Length)
+                    return string.Compare(a, b, StringComparison.Ordinal);
+                return a.Length - b.Length;
+            });
+
+            Console.WriteLine(string.Join("\n", unsorted));
             Console.ReadKey();
         }
 
-        private static string[] bigSorted(string[] unsorted)
-        {
-            int len = unsorted.Length;
-            for (int i = 0; i < len - 1; i++)
-            {
-                
-            }
+        //private static int[] BigSorting(string[] unsorted)
+        //{
+        //    Array.Sort(unsorted, (string a, string b) => {
+        //        if (a.Length == b.Length)
+        //            return string.Compare(a, b, StringComparison.Ordinal);
+        //        return a.Length - b.Length;
+        //    });
+        //}
 
-            return null;
-        }
+        /*
+         31415926535897932384626433832795, 1, 3, 10, 3, 5
+        */
+
     }
 }
